@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: deviceAPI
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: suhasarudi
+Implementation-Vendor-Id: com.suhas
+Build-Jdk: 1.8.0_101
+Implementation-URL: https://spring.io/projects/spring-boot/deviceAPI
+Created-By: Maven Integration for Eclipse
+
