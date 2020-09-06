@@ -42,8 +42,8 @@ The below code snippet shows how easy it is.
 @ExtendWith(HoverflyExtension.class)
 @HoverflySimulate(source = 
 @HoverflySimulate.Source(value = "simulation.json", 
-						type = HoverflySimulate.SourceType.DEFAULT_PATH),
-						enableAutoCapture = true)
+			type = HoverflySimulate.SourceType.DEFAULT_PATH),
+			enableAutoCapture = true)
 public class HoverflyTest {
   .
   .
