@@ -71,3 +71,10 @@ public class HoverflyTest {
 ```
 
 This can be bundled inside the service or it can be externalized and run as a proxy in a separate container.
+
+### Clone or download the application from this repository to see it in action.
+- There are 2 applicaions 
+	deviceAPI
+	hoverfly
+
+
