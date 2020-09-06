@@ -1,6 +1,6 @@
 # Getting started with hoverfly.
 
-Run this command to install hoverfly on host machine, if you have brew installed.
+Run this command to install hoverfly on your host machine, if you have brew installed.
 ```
 brew install SpectoLabs/tap/hoverfly
 ```
