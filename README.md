@@ -37,6 +37,15 @@ We can always use capture/simulate dual mode. so that some new data will be capt
 ## Implementation
 Minimal configuration to integrate hoverfly with existing Junit 5 test class.
 
+Add dependency
+```
+	<dependency>
+		<groupId>io.specto</groupId>
+		<artifactId>hoverfly-java-junit5</artifactId>
+		<version>0.13.0</version>
+		<scope>test</scope>
+	</dependency>
+```
 The below code snippet shows how easy it is.
 ```
 @ExtendWith(HoverflyExtension.class)
