@@ -5,18 +5,15 @@
 
 - It is also known as service virtualization tool. It is actually some sort of mocking, but with real response.
 
-When to use Hoverfly?
-Mainly used in testing.
+## When to use Hoverfly?
+- Mainly used in testing.
+- As an alternative for mocks/ stubs, component tests, performance tests.
+- simulate flakiness, errors.
+- To simulate API functionality that doesn't exist (yet) by modifying the simulation file.
+- Useful for developers, when the system being tested depends on other services. 
 
-As an alternative for mocks/ stubs
-component tests, performance tests.
-simulate flakiness, errors.
-To simulate API functionality that doesn't exist (yet)
-By modifying the simulation file.
-Useful for developers, when the system being tested depends on other services. 
-
-Hoverfly as a proxy server.
-Capture Mode : Can capture and store request/response of the actual API.
+## Hoverfly as a proxy server.
+**Capture Mode :** Can capture and store request/response of the actual API.
 
 
 
