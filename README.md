@@ -74,7 +74,7 @@ This can be bundled inside the service or it can be externalized and run as a pr
 
 ### Clone or download the application from this repository to see it in action.
 - There are 2 applicaions 
-	deviceAPI
-	hoverfly
+1 deviceAPI
+2 hoverfly
 
-[Contribution guidelines for this project](docs/CONTRIBUTING.md)
+
