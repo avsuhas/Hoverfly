@@ -75,6 +75,6 @@ This can be bundled inside the service or it can be externalized and run as a pr
 ### Clone or download the application from this repository to see it in action.
 - There are 2 applicaions 
 1. deviceAPI - Which Runs on 8900
-2. hoverfly - Used to demo Hoverfly
+2. hoverfly - Used to demo the feature
 
 
