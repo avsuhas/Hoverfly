@@ -21,7 +21,7 @@
 
 
 
-Simulate Mode : it will simulate from the stored response and will not make a call to the actual API.
+**Simulate Mode :** It will simulate from the stored response and will not make a call to the actual API.
 
 
 
@@ -34,13 +34,25 @@ It can also switch between different modes, for example: If there is no response
 We can always use capture/simulate dual mode. so that some new data will be captured.
 
 
-Implementation
+## Implementation
 Minimal configuration to integrate hoverfly with existing Junit 5 test class.
 
 The below code snippet shows how easy it is.
-
-
-
-
+```
+@ExtendWith(HoverflyExtension.class)
+@HoverflySimulate(source = 
+@HoverflySimulate.Source(value = "simulation.json", 
+						type = HoverflySimulate.SourceType.DEFAULT_PATH),
+						enableAutoCapture = true)
+public class HoverflyTest {
+  .
+  .
+  .
+  --some code here--
+  .
+  .
+  .
+}
+```
 
 This can be bundled inside the service or it can be externalized and run as a proxy in a separate container.
