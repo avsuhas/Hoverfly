@@ -1,5 +1,11 @@
 # Getting started with hoverfly.
 
+Run this command if you have brew installed on your machine.
+```
+brew install SpectoLabs/tap/hoverfly
+```
+Otherwise, depending upon the system, follow instructions [Official Site](https://docs.hoverfly.io/en/latest/pages/introduction/downloadinstallation.html).
+
 ## What is Hoverfly?
 - Hoverfly is a lightweight, open source API simulation tool. Using Hoverfly, you can create realistic simulations of the APIs your application depends on.
 
