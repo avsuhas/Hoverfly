@@ -79,4 +79,4 @@ This can be bundled inside the service or it can be externalized and run as a pr
 
 * Run deviceAPI and then launch the test present in hoverfly, observe closely - for the first time, it calls the deviceAPI and captures the request and response.
 * subsequent attempts, It returns the response stored in the simulation file. 
-* This can be verified by changing the in simulation file and launch the test case again.
+* This can be verified by changing the response present in simulation file and launch the test case again.
